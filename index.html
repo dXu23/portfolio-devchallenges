@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+      />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <title>Devchallenges</title>
+  </head>
+  <body>
+    <div id="toggle-container">
+      <h6>Layout Toggler</h6>
+      <label class="switch">
+        <input id="layout-toggler" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <main>
+      <section id="profile" class="card">
+        <img src="images/portrait.png" alt="Picture of developer" />
+        <div>
+          <div id="profile-info">
+            <h1>Billy Pearson</h1>
+            <p>Front-end developer</p>
+          </div>
+
+          <div id="profile-contact">
+            <div class="icons-aligned">
+              <span class="material-symbols-outlined">mail</span> &nbsp;
+              <a href="mailto:billy@example.com">billy@example.com</a>
+            </div>
+
+            <div class="icons-aligned">
+              <span class="material-symbols-outlined">phone</span> &nbsp;
+              <a href="tel:+603546624342">(+603) 546 624 342</a>
+            </div>
+          </div>
+
+          <div id="profile-content">
+            <p>
+              Self-motivated developer, who is willing to learn and create
+              outstanding UI applications
+            </p>
+            <p class="hideable">
+              Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+              feugiat malesuada molestie
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="front-end" class="card card-metric vertical">
+        <h2>FRONT END</h2>
+        <div class="skills">
+          <div>
+            <label for="react">React</label>
+            <meter id="react" value="0.65">65%</meter>
+          </div>
+
+          <div>
+            <label for="javascript">Javascript</label>
+            <meter id="javascript" value="0.84">84%</meter>
+          </div>
+
+          <div>
+            <label for="css">CSS</label>
+            <meter id="css" value="0.9">90%</meter>
+          </div>
+
+          <div>
+            <label for="vue">Vue</label>
+            <meter id="vue" value="0.65">65%</meter>
+          </div>
+
+          <div>
+            <label for="redux">Redux</label>
+            <meter id="redux" value="0.85">85%</meter>
+          </div>
+
+          <div>
+            <label for="react-native">React Native</label>
+            <meter id="react-native" value="0.9">90%</meter>
+          </div>
+        </div>
+      </section>
+      <section id="design" class="card card-metric vertical hideable hidden">
+        <h2>DESIGN</h2>
+        <div class="skills">
+          <div>
+            <label for="figma">Figma</label>
+            <meter id="figma" value="0.65">65%</meter>
+          </div>
+
+          <div>
+            <label for="photoshop">Photoshop</label>
+            <meter id="photoshop" value="0.8">80%</meter>
+          </div>
+        </div>
+      </section>
+      <section id="hobbies" class="card card-normal vertical">
+        <h2>Hobbies</h2>
+        <div>
+          <article>
+            <img src="images/game.png" alt="Video game controller" />
+            <h3>Gaming</h3>
+            <p>
+              Quisque feugiat malesuda molestie
+            </p>
+          </article>
+          <article>
+            <img src="images/kitchen.png" alt="iPad on kitchen counter" />
+            <h3>Cooking</h3>
+            <p>
+              Quisque feugiat malesuda molestie
+            </p>
+          </article>
+          <article>
+            <img src="images/bike.png" alt="Person riding bike" />
+            <h3>Biking</h3>
+            <p>
+              Quisque feugiat malesuda molestie
+            </p>
+          </article>
+        </div>
+      </section>
+      <section id="blog" class="vertical">
+        <div class="card card-separate hideable hidden">
+          <h2 class="heading-separate">Blog (1)</h2>
+        </div>
+        <article class="card card-normal">
+          <div>
+            <p>Blog</p>
+            <h2>How to organize your CSS</h2>
+          </div>
+          <img src="images/workdesk.png" alt="Top of work desk" />
+          <div>
+            <p>
+              In this article I tell the story about Proin eu justo sit amet lacus
+              bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.
+            </p>
+            <p>
+              Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+              feugiat malesuada molestie.
+            </p>
+            <a href="dev.to">dev.to</a>
+          </div>
+        </article>
+      </section>
+      <section id="experiences" class="card card-normal">
+        <h2>Experiences</h2>
+        <article>
+          <img src="images/adidas.png" alt="Adidas logo" />
+          <div>
+            <h4>Feb 2017 - Current</h4>
+            <h3>Front-end developer</h3>
+            <p>
+              Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+              feugiat malesuada molestie.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img src="images/hm.png" alt="H & M logo" />
+          <div>
+            <h4>Aug 2016 - Feb 2018</h4>
+            <h3>Front-end developer</h3>
+            <p>
+              Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+              feugiat malesuada molestie.
+            </p>
+          </div>
+        </article>
+        <article class="hideable hidden">
+          <img src="images/nivea.png" alt="Nivea logo" />
+          <div>
+            <h4>Jun 2015 - Aug 2016</h4>
+            <h3>Junior front-end developer</h3>
+            <p>
+              Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
+              feugiat malesuada molestie.
+            </p>
+          </div>
+        </article>
+      </section>
+      <div id="projects" class="vertical">
+        <section class="card card-separate">
+          <h2>Projects (3)</h2>
+          <div class="hideable">
+            <button class="btn-light">
+              React
+            </button>
+            <button class="btn-light">
+              Vue
+            </button>
+            <button class="btn-primary">
+              Responsive
+            </button>
+          </div>
+        </section>
+        <div>
+          <article class="project card card-project">
+            <img src="images/recipe.png" alt="Recipe webpage" />
+            <div>
+              <p>#HTML &nbsp;#CSS &nbsp;#responsive</p>
+              <h3>Recipe Blog</h3>
+              <p>
+                In this project, I work with HTML and CSS to create a responsive
+                webpage. This page is similar with a page. The design is from
+                devchallenge.io
+              </p>
+              <a href="#" class="btn-primary">
+                Demo
+              </a>
+              <a href="#" class="btn-secondary">
+                Code
+              </a>
+            </div>
+          </article>
+          <article class="project card card-project">
+            <img src="images/gallery.png" alt="Gallery webpage" />
+            <div>
+              <p>#HTML &nbsp;#CSS &nbsp;#responsive</p>
+              <h3>My Gallery</h3>
+              <p>
+                In this project, I work with HTML and CSS to create a responsive
+                webpage. This page is similar with a page. The design is from
+                devchallenge.io
+              </p>
+              <a href="#" class="btn-primary">
+                Demo
+              </a>
+              <a href="#" class="btn-secondary">
+                Code
+              </a>
+            </div>
+          </article>
+          <article class="project card card-project">
+            <img src="images/checkout.png" alt="Checkout webpage" />
+            <div>
+              <p>#HTML &nbsp;#CSS &nbsp;#responsive</p>
+              <h3>Checkout</h3>
+              <p>
+                In this project, I work with HTML and CSS to create a responsive
+                webpage. This page is similar with a page. The design is from
+                devchallenge.io
+              </p>
+              <a href="#" class="btn-primary">
+                Demo
+              </a>
+              <a href="#" class="btn-secondary">
+                Code
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+    <script src="index.js" defer></script>
+  </body>
+</html>

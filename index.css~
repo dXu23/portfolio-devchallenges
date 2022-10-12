@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  max-width: 960px;
+}
+
+img {
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.card {
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 2.25em 1.375em;
+}
+
+meter {
+  width: 70%;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: #2f80ed
+}
+
+#front-end .skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 1.5em;
+}
+
+#front-end.vertical .skills {
+  grid-template-columns: 1fr;
+}
+
+.skills > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+#experiences article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 1.5em;
+}
+
+#experiences article img {
+  width: 18%;
+}
+
+#hobbies {
+  width: 100%;
+}
+
+#hobbies.vertical {
+  width: 30%;
+}
+
+#hobbies > div {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+#hobbies.vertical > div {
+  flex-direction: column;
+}
+
+#hobbies img {
+  width: 100%;
+  aspect-ratio: 15 / 7;
+}
+
+#hobbies.vertical img {
+  aspect-ratio: 3 / 1;
+}
