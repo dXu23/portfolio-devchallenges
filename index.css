@@ -167,8 +167,9 @@ main {
     "front-end blog blog"
     "hobbies blog blog"
     "hobbies experiences experiences"
-    "projects projects projects";
-  grid-template-rows: 40vh 40vh 32vh 48vh 88vh;
+    "projects projects projects"
+    ". . navigation";
+  grid-template-rows: 40vh 40vh 32vh 48vh 84vh 3vh;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -178,7 +179,8 @@ main.alternate {
     "profile projects projects"
     "experiences projects projects"
     "experiences projects projects"
-    "hobbies blog blog";
+    "hobbies blog blog"
+    ". . navigation";
 }
 
 #profile {
@@ -477,6 +479,39 @@ meter::-webkit-meter-optimum-value {
 
 #hobbies.vertical img {
   aspect-ratio: 3 / 1;
+}
+
+#navigation {
+  margin-left: auto;
+  justify-self: end;
+  column-gap: 1em;
+  width: 100%;
+  grid-area: navigation;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.page {
+  background-color: #fff;
+  width: 2rem;
+  aspect-ratio: 1 / 1;
+  border: 1px solid #4f4f4f;
+  border-radius: 5px;
+}
+
+.page.current {
+  background-color: #2196F3;
+  color: white;
+  border-style: none;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-block: 3em;
+  text-align: center;
+  width: 80%;
 }
 
 .material-symbols-outlined {
