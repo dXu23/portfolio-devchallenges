@@ -55,5 +55,5 @@ Just open the index.html in the browser.
 
 ## Contact
 
-- Website [coldfix.dev](https://coldfix.dev)
-- GitHub [dXu23](https://github.com/dXu23)
+- [Website](https://rad-sunshine-871fb5.netlify.app/)
+- [GitHub](https://github.com/dXu23)
